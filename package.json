@@ -1,0 +1,34 @@
+{
+  "name": "amdvuejs",
+  "version": "1.0.0",
+  "description": "An experiment with vue.js",
+  "main": "main.js",
+  "dependencies": {
+    "insert-css": "^0.2.0",
+    "jquery": "^2.2.2",
+    "require-css": "^0.1.8",
+    "requirejs": "^2.2.0",
+    "text": "^2.0.14",
+    "vue": "^1.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admataz/amd-vuejs-component.git"
+  },
+  "keywords": [
+    "experiment",
+    "vue.js",
+    "amd",
+    "require.js"
+  ],
+  "author": "Adam Davis <adam@admataz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/admataz/amd-vuejs-component/issues"
+  },
+  "homepage": "https://github.com/admataz/amd-vuejs-component#readme"
+}
