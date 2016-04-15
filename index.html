@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vue experiments</title>
+
+  <script src="node_modules/requirejs/require.js" charset="utf-8" data-main="main.build"></script>
+
+
+  <script type="text/javascript">
+  require.config({
+baseUrl: './',
+paths: {
+  'vue': 'node_modules/vue/dist/vue',
+  'jquery': 'node_modules/jquery/dist/jquery',
+  'text': 'node_modules/text/text',
+  'css': 'node_modules/require-css/css',
+  'components': 'components'
+}
+
+})
+  </script>
+</head>
+<body>
+
+
+<div id="testarea">
+  <ul class="v-data">
+    <li>    here  </li><li>    is  </li><li>    a list sdddd  </li>
+  </ul>
+</div>
+
+
+
+
+
+<script>
+require(['vue', 'jquery'], function(Vue, $){
+
+});
+
+
+</script>
+</body>
+
+
+</html>

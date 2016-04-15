@@ -1,0 +1,14 @@
+<div>
+<h3>{{ title }}</h3>
+
+<ul v-list-values>
+  <li v-for="item in items" track-by="$index" >
+    {{{ item }}}
+    <a href="#" v-on:click.prevent="removeItem($index)">x </a>
+  </li>
+</ul>
+<input type="text" name="newitem" id="newitemlabel" v-model="newitemlabel"/>
+
+<button v-on:click.prevent="addItem">Add Item</button>
+
+</div>
